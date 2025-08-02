@@ -1,21 +1,42 @@
-# 🎭 TxM Dialogue V1 - NPC Interaction System for QBCore
+# 🧠 TxM - NPC Dialogue System (Multiframework)
 
-A lightweight and flexible **NPC Dialogue Interaction** system for QBCore-based FiveM servers. This resource allows players to interact with NPCs in a 3D world, open dialogue UI, and trigger specific actions like starting or ending jobs, renting vehicles, etc.
-
----
-
-## 🔧 Features
-
-- 📍 Spawn NPCs with coordinates, animations, and blips
-- 🗣 Customizable dialogue UI
-- 🎥 Camera zoom & focus during interaction
-- 🔄 Dynamic options based on player state (e.g., vehicle rented or not)
-- 🧠 Easily trigger server-side logic through dialogue options
+A clean, immersive, and customizable **NPC Dialogue Interaction** system designed for **GTA V FiveM**, supporting **QBCore**, **QBox**, and **ESX** frameworks.
 
 ---
 
-## 📦 Installation
+## 📌 Features
 
-1. **Clone or download** this resource into your server's `resources/[your-folder]`:
+- 🗣️ Interact with NPCs using a responsive UI dialogue system.
+- 🎯 Built-in camera focus on NPCs when interacting.
+- ⚙️ Easily configurable options for each NPC.
+- 📦 Framework auto-detection (`QBCore`, `Qbox`, `ESX`).
+- 🔁 Server-client event communication.
+- 🧩 Add custom job logic, missions, or rentals easily.
+- 🛡️ Lightweight and optimized for performance.
+
+---
+
+## 🚀 Supported Frameworks
+
+- ✅ QBCore
+- ✅ Qbox
+- ✅ ESX
+
+> No need to change your core! Just configure one line.
+
+---
+
+## 🛠️ Installation
+
+1. **Clone or download** this repository into your `resources/[local]` folder:
    ```bash
-   git clone https://github.com/yourname/txm-dialoguev1
+   git clone https://github.com/yourname/txm-npc-dialogue.git
+   ```
+2. Ensure the resource in your server.cfg:
+   ```bash
+   ensure txm-npc-dialogue
+   ```
+3. Configure framework in config.lua:
+   ```bash
+   Config.Framework = "qbcore" -- or "qbox", "esx"
+   ```
