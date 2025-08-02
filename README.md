@@ -34,7 +34,7 @@ A clean, immersive, and customizable **NPC Dialogue Interaction** system designe
    ```
 2. Ensure the resource in your server.cfg:
    ```bash
-   ensure txm-npc-dialogue
+   ensure TxM-TalkToNpcV1
    ```
 3. Configure framework in config.lua:
    ```bash
